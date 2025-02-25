@@ -1,0 +1,32 @@
+// @ts-nocheck
+// {
+//   "compilerOptions": {
+//     "target": "ESNext", // JavaScript target
+//     "module": "nodenext",
+//     "moduleDetection": "nodenext",
+//     "rootDir": "src", // Where your TypeScript files are located
+//     "outDir": "dist", // Compiled JavaScript output
+//     "strict": true, // Strict type-checking options
+//     "esModuleInterop": true, // For compatibility with CommonJS
+//     "skipLibCheck": true, // Skips type checking for libraries
+//     "resolveJsonModule": true, // Allows importing JSON files
+//   },
+//   "include": ["src"], // Include the source folder
+//   "exclude": ["node_modules"] // Exclude dependencies
+// }
+
+{
+    "compilerOptions": {
+      "target": "ESNext",                  // JavaScript target
+      "module": "nodenext",               // Module resolution for Node.js (ESM & CommonJS)
+      "rootDir": "src",                   // Where your TypeScript files are located
+      "outDir": "dist",                   // Compiled JavaScript output
+      "strict": true,                     // Enable strict type-checking
+      "esModuleInterop": true,            // Compatibility with CommonJS
+      "skipLibCheck": true,               // Skip type checking for library files
+      "resolveJsonModule": true           // Allow importing JSON files
+    },
+    "include": ["src"],                   // Include the source folder
+    "exclude": ["node_modules"]           // Exclude dependencies
+  }
+  
