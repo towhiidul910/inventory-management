@@ -16,7 +16,7 @@ type StatCardProps = {
 };
 
 const StatCard = ({
-  title,
+  // title,
   primaryIcon,
   details,
   dateRange,
